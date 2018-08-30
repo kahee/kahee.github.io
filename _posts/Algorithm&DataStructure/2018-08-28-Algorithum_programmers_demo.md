@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "알고리즘 - 프로그래머스 데모 테스트 문제1"
+title: "알고리즘 - 프로그래머스 데모 테스트 문제1 (미해``)"
 date: 2018-08-28 00:00:00
 img:
 categories:
@@ -30,7 +30,7 @@ arr	result
 
 ## 코드
 ```python
-# 정확성 통과, 효율성 통과
+# 처음에 풀었던 방식 - 잘못된 방법
 def solution(arr):
     result_dic = {value:False for value in range(1,len(arr)+1)}
     for value in arr:
@@ -73,5 +73,5 @@ def solution(arr):
           else:
               result_dic[value] = True
       return answer
-      
+
 ```
