@@ -4,6 +4,8 @@ title: "Ubuntu Install 18.04(듀얼부팅)"
 date: 2018-05-10 00:00:00
 img:
 tags: [UBUNTU]
+categories :
+  - etc
 ---
 > 본 문서는 패스트캠퍼스 'Web-Programming School' 수업 자료를 바탕으로 작성되었습니다.
 

@@ -4,6 +4,8 @@ title: "Atom_setting"
 date: 2018-04-30 00:00:00
 img:
 tags: [ATOM]
+categories :
+  - etc
 ---
 
 ### 필수 패키지

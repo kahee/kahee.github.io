@@ -3,6 +3,8 @@ layout: post
 title: "Zsh 및 플러그인 설치"
 date: 2018-01-17 09:00:00
 tags: [Zsh]
+categories :
+  - etc
 ---
 # Zsh 및 플러그인 설치
 >Web-Programming School 1월 17일 수업<br>
@@ -39,7 +41,7 @@ bash install.sh
 $ git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
 $ vim ~/.zshrc
 ```
-`~/.zshrc`에서 **plugins** 부분에  **zsh - autosugeestions** 추가
+`~/.zshrc`에서 **plugins** 부분에  **zsh - autosugestions** 추가
 
 <br>
 

@@ -4,6 +4,8 @@ title: "Jekyll 블로그 만들기"
 date: 2018-05-16 12:00:00
 img:  # Add image post (optional)
 tags: [Jekyll]
+categories :
+  - etc
 ---
 
 > 본 문서는 패스트캠퍼스 'Web-Programming School' 수업 자료를 바탕으로 작성되었습니다.
