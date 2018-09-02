@@ -206,7 +206,8 @@ AUTHENTICATION_BACKENDS = [
 ]
 
 ```
-- `get_user` 함수는 항상 들어가야한다. (무슨 역할 하는지 찾아볼것)
+- `get_user` 함수는 항상 들어가야한다. : authenticate()가 완료된후, 인증허가된 user 객체를 리턴하는데 사용
+- [참고](https://code-examples.net/ko-kr/docs/django~2.0/topics/auth/default)
 
 ```py
 
