@@ -4,7 +4,7 @@ title: "스택(Stack)"
 date: 2018-08-01 00:00:00
 img:
 categories:
-- Algorithm/DataStructure
+- Algorithm_DataStructure
 tags: [알고리즘/자료구조]
 ---
 > 파이썬과 함께하는 자료구조의 이해 책 정리

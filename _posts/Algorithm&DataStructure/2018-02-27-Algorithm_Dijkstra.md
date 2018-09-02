@@ -4,7 +4,7 @@ title: "알고리즘(다익스트라)"
 date: 2018-02-27  00:00:00
 img:
 categories:
-- Algorithm/DataStructure
+- Algorithm_DataStructure
 tags: [알고리즘/자료구조]
 ---
 > Hello Coding 그림으로 개념을 이해하는 알고리즘 책 정리

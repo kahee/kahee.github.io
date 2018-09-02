@@ -4,7 +4,7 @@ title: "그래프 - 깊이우선탐색/너비우선탐색"
 date: 2018-08-30 00:00:00
 img:
 categories:
-- Algorithm/DataStructure
+- Algorithm_DataStructure
 tags: [알고리즘/자료구조]
 ---
 > 파이썬과 함께하는 자료구조의 이해 책 정리

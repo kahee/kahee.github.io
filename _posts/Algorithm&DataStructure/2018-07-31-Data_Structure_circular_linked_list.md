@@ -4,7 +4,7 @@ title: "원형 연결 리스트(Circular Linked List)"
 date: 2018-07-30 00:00:00
 img:
 categories:
-- Algorithm/DataStructure
+- Algorithm_DataStructure
 tags: [알고리즘/자료구조]
 ---
 > 파이썬과 함께하는 자료구조의 이해 책 정리

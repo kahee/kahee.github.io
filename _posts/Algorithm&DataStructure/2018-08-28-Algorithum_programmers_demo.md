@@ -4,7 +4,7 @@ title: "알고리즘 - 프로그래머스 데모 테스트 문제1 (미해``)"
 date: 2018-08-28 00:00:00
 img:
 categories:
-- Algorithm/DataStructure
+- Algorithm_DataStructure
 tags: [알고리즘/자료구조]
 ---
 

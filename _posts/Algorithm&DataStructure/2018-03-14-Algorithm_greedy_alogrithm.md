@@ -4,7 +4,7 @@ title: "알고리즘(탐욕 알고리즘)"
 date: 2018-03-14  00:00:00
 img:
 categories:
-- Algorithm/DataStructure
+- Algorithm_DataStructure
 tags: [알고리즘/자료구조]
 ---
 > Hello Coding 그림으로 개념을 이해하는 알고리즘 책 정리
