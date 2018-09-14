@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "캐시"
-date: 2018-03-19  00:00:00
+title:  "캐시"
+date: 2018-09-14 00:00:00
 img:
-tags: [network]
+categories:
+- Network
+tags: [Network]
 ---
 > HTTP 완벽 가이드 책 정리
 
