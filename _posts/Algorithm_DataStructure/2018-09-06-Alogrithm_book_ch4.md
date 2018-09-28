@@ -4,7 +4,7 @@ title: "알고리즘의 시간 복잡도 분석"
 date: 2018-09-06 00:00:00
 img:
 categories:
-- Algorithm_DataStruct
+- Algorithm_DataStructure
 tags: [알고리즘/자료구조]
 ---
 > 프로그래밍대회에서 배우는 알고리즘 문제해결전략 정리
@@ -110,4 +110,3 @@ tags: [알고리즘/자료구조]
 ---
 
 ## 4.7 계산 복잡도 클래스 : P, NP, NP-완비
- 
