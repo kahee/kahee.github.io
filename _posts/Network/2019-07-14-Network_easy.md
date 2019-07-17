@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "캐시"
+title:  "후니의 쉽게쓴 시스코 네트워킹 - Part2"
 date: 2019-07-19 00:00:00
 img:
 categories:
