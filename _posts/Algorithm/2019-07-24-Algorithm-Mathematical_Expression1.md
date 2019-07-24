@@ -4,7 +4,7 @@ title: "Mathematical Expression"
 date: 2019-07-24  00:00:00
 img:
 categories:
-- Algorithm
+    - Algorithm
 tags: [알고리즘]
 ---
 
@@ -142,7 +142,7 @@ tags: [알고리즘]
 - if p then q, and if q then p.” = p iff q
 
 ### Summary
-<img src="{{ site.url }}/assets/post_img/190725_1.png">
+<img src="{{site.url}}/assets/post_img/190725_1.png">
 
 ### 문제
 - A tautology is a formula that is True for every possible assignment of values to its propositional variable 
