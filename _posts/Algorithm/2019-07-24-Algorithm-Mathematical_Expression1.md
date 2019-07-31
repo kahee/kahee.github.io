@@ -61,7 +61,7 @@ tags: [알고리즘]
     - {...,(−2,−3),(−1,−2),(0,−1),(1,0),(2,1),...}
 - function f: A1 × A2 × · · · × Ak → B 
     - k 개의 인수를 갖는 함수
-    - 1과 k 사이의 i번째 요소는 반드시 $A_{i}$ 요소여야하며, f g 함수의 결과값은 반드시 B의 요소여야함
+    - 1과 k 사이의 i번째 요소는 반드시 $A_{i}$, f g 함수의 결과값은 반드시 B의 요소여야함
     - operator + : R × R → R: 두개의 실수를 입력받은후 이것의 sum을 리턴
     = x+y, +(x,y) 표기 할 수 있음 
 - predicate: {True, False}
@@ -113,7 +113,7 @@ tags: [알고리즘]
 - 예시
     - Every even integer greater than 2 is the sum of two prime numbers(소수).: False
 - propositional variables: p
-- propositional/logical operator: 인수 모두 참 또는 거짓
+- propositional/logical operator: 인수 모두 참 또는 거짓 (input이 모두 boolean 이어야한다.)
 
 ### The basic operators: NOT, AND, OR
 - NOT, -: if p is Ture then -p is False
@@ -126,20 +126,23 @@ tags: [알고리즘]
 
 ### The implication operator
 - p는 가설, q 결론 
-- p ⇒ q, p가 True 이면 q도 반드시 True 
+- p ⇒ q, p가 True 이면 q도 반드시 True
 - p가 False 이면 p ⇒ q 거짓
 - p가 False 이고,  가 True 또는 False 일 때 p ⇒ q를 True
 - vacuous truth cases: p ⇒ q를 True, p가 Fasle
     - 어떻게 이런 판단을 내리는가?
-    <br> 은 p가 False 일 때 q가 발생해야하는지 여부에 대해 아무 것도 말하지 않기 때문에 p가 False 일때 증명할 수가 없음
+    <br> 은 **p가 False 일 때 q가 발생해야하는지 여부에 대해 아무 것도 말하지 않기 때문에 p가 False 일때 증명할 수가 없음**
 - If you are a Pittsburgh Pens fan, then you are not a Flyers fan
     - You are not a Pittsburgh Pens fan, or you are not a Flyers fan(¬p ∨ q: ): p가 거짓이면 p ⇒ q 참이고, p가 참이면 q도 참
     - If you are a Flyers fan, then you are not a Pittsburgh Pens fan.(¬q ⇒ ¬p): q가 일어나지 않으면 p도 발생 할 수 없다.
+    - p ⇒ q , ¬p ∨ q, ¬q ⇒ ¬p 같은 결과값이 나와야한다.
 - converse: p ⇒ q를 취하고 가설과 결론을 전환하면 q ⇒ p 를 얻을 수 있다. 
 
 ### Biconditional
 - p ⇔ q, p ⇒ q, q ⇒ p 둘다 참일때,(p ⇒ q)∧(q ⇒ p)
 - if p then q, and if q then p.” = p iff q
+    - p:true, q:ture ture
+    - p:false, q:false false 
 
 ### Summary
 <img src="{{site.url}}/assets/post_img/190725_1.png">
