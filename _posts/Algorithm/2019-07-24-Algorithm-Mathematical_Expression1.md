@@ -108,7 +108,7 @@ tags: [알고리즘]
 - Theorem 1.2: 음수가 아닌 실수 a,b  all strictly increas- ing functions f : $R^≥0 → R^≥0$ 
     - If a≤b,then f(a)≤ f(b).
 
-### Propositional logic
+### Propositional ~~logic~~
 - Propositional(명제): 참 거짓의 명령문 
 - 예시
     - Every even integer greater than 2 is the sum of two prime numbers(소수).: False

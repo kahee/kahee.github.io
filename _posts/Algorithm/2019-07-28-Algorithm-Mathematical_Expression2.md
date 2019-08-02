@@ -56,11 +56,11 @@ tags: [알고리즘]
     - a person b in B that is loved by everyone in A
     - Malena, Stanley 연결이 사라지면 위 예제는 True가 안될 수 있음, 그러나 "everyone in A loves someone" 은 True
 - 결론: **기호 순서가 바뀌면 의미가 달라질 수 있음**
-    - 첫번째 경우: 기호 a가 quantified 가 된 후에 발생하기에 b의 선택은 a의 선택에 따라 달라짐
-    - 두번째 경우: b가 먼저 나와서 b의 선택은 a의 선택과 독립적이어야 함
+    - 첫번째 경우: 기호 a가 quantified 가 된 후에 발생하기에 b의 선택은 a의 선택에 따라 달라짐 (a의 선택에 따라 b가 누군지 달라짐)
+    - 두번째 경우: b가 먼저 나와서 b의 선택은 a의 선택과 독립적이어야 함 (a의 선택과 상관없이 b를 선택함)
 - 모든 quantified expression 왼쪽에서 오른쪽으로 읽고 기호를 주의해야함 
 - True 인지 확인하려면 변수가 사용할 수 있는 모든 값에 대한 명령문을 확인해야함
-- 이해가 필요함: one value for that variable such that the statement is True, and this value can depend on the variables to the left of it, but not on the variables to the right of it. -> 왼쪽 변수의 경우 오른쪽 변수에는 의존할 수 없음 
+- 이해가 필요함: one value for that variable such that the statement is True, and this value can depend on the variables to the left of it, but not on the variables to the right of it. -> 왼쪽 변수의 경우 오른쪽 변수에는 의존할 수 없음, (exists quntified)
 
 ### Writing sentences in predicate logic
 - $∀x ∈ N, x2 > y$: 문장이 아님, x가 quantified 가 되더라도, y는 없기 때문에  formula 의 truth 값이 될 수 없음
@@ -75,7 +75,7 @@ tags: [알고리즘]
     - ¬(p∧q) -> (¬p)∨(¬q)
     - ¬(p ⇒ q) -> p ∧ (¬q)
     - ¬(p⇔q) -> (p∧(¬q))∨((¬p)∧q)) 
-    - ¬(∃x ∈ S, P(x)) -> ∀x ∈ S, ¬P(x)
+    - ¬(∃x ∈ S, P(x)) -> ∀x ∈ S, ¬P(x) ¬(최소 한개를 만족한다) -> 하나도 만족하지 않는다.
     - ¬(∀x ∈ S, P(x)) -> ∃x ∈ S, ¬P(x)
 - ⇔ "같은 truch 값을 가짐" -> 부정 "다른 truth 값을 가짐"
 
