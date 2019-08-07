@@ -158,3 +158,15 @@ n > 20
 n ≥ 14/3
 ```
 - $ 1.5n − 4 ≥ 3 ⇒ n ≥ 14$ 이걸 보여주게됨
+
+### A new domain: number theory 
+- $ Let n, d ∈ Z$, d divides n or n is divisible by d 
+- ex 2.5) Prove 23 | 115 
+    - $∃k ∈ Z, 115 = 23k$
+    - proof: Let k = 5, Then 115 = 23*5
+- ex 2.6) 
+    - Tranlatiton: $∃a ∈ Z, a | 104$, $∃a, k ∈ Z, 104 = ak$
+    - disussion: 104의 pair of divisors 를 골라야함 
+    - Let a = -2 and let k = -52. then 104 = ak
+
+
