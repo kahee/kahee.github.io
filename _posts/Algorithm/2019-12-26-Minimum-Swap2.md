@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "WIL - 12월 4째주"
+title: "Minimum Swaps 2"
 date: 2019-12-26 00:00:00
 img:
 categories:
-- WIL
-tags: [WIL]
+- Algorithm
+tags: [알고리즘]
 ---
 
 ## Minimum Swaps 2
